@@ -1,0 +1,95 @@
+html,body{
+    
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  box-sizing: border-box;
+
+}
+
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+.textInput{
+  text-align:center;
+  margin:8em auto 2em;
+}
+.textInput Button{
+  margin-left: 1em;
+}
+.SearchRadio{
+  text-align:center;
+}
+
+/* .radio{
+
+}  */
+
+.message{
+  margin:3em auto 5em;
+  text-align:center;
+}
+
+ul{
+  margin: 1em 2em;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  padding:0;
+}
+li{
+  
+  list-style: none;
+  padding:1.5em;
+  flex: 1 1 33%;
+}
+
+li:hover{
+  box-shadow:0 0 3em 1em black;
+}
+
+.outer{
+  display:flex;
+  flex-direction:row;
+
+}
+.outer>img{
+  margin-right: 1em;
+}
+
+.outer>.inner{
+  
+  display:flex;
+  flex-direction:column;
+  
+}
+.outer>.inner>h3{
+  margin:0 0 0.3em;
+}
+
+.progress{
+
+  width: 0%;
+  position:fixed;
+  height: 1em;
+  background-color: rgb(31,210,106);
+  opacity: 1;
+  transition: all 0.6s ease-in-out; 
+}
+.stage{
+  width: 85%;
+  opacity: 1;
+  
+}
+.stage4{
+  width: 100%;
+  opacity: 0;
+
+}
+.stage5{
+  width: 0%;
+  opacity: 0;
+}
